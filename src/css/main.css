@@ -1,0 +1,158 @@
+.hp-topbar {
+    background: linear-gradient(#0acaca, #70f3f3);
+    color: #fff;
+}
+.top-nav{
+    color: #fff !important;
+}
+
+.hp-header {
+    padding: 5px 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.hp-navbar {
+    border-radius: 4px;
+}
+
+.hp-nav-logo{
+    margin-left: -80px !important;
+}
+
+.hp-nav-btn {
+    position: absolute;
+    right: -5%;
+    background-color: #0acaca !important;
+    color: white !important;
+}
+
+.hp-home {
+    background-image: url("../../public/img/hospiat3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.row {
+    width: 100%;
+}
+
+.hp-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-row {
+    padding: 20px 70px;
+}
+
+.home-box {
+    background-color: #fff;
+}
+
+.hp-about-section {
+    padding: 30px 150px;
+}
+
+.about-img, .hp-about-text {
+    text-align: left;
+    padding: 30px;
+}
+
+.about-img img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.hp-specialize {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.hp-list {
+    display: inline-flex;
+    padding-right: 20px;
+}
+
+.hp-list img {
+    width: 20px;
+    height: 20px;
+}
+
+.hp-department-div {
+    background-image: url("../../public/img/hospital6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 60px;
+}
+
+.staff-box {
+    padding: 20px;
+}
+
+.staff-box img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.hp-staff-row {
+    background-color: #fff;
+    margin: 60px 0px !important;
+}
+
+.hp-staff-col {
+    border: 1px solid #ccc;
+}
+
+.hp-staff-col:hover {
+    background-color: #55ecf1;
+    color: #fff;
+}
+
+.hp-client-div {
+    padding: 30px 60px;
+}
+.client-head {
+    padding: 30px;
+}
+
+.client-col {
+    padding: 10px 30px;
+}
+
+.client-col img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #55ecf1;
+}
+
+.hp-success-div {
+    background-color: #0acaca;
+    padding: 50px 200px;
+}
+
+.hp-success-div h1, .hp-success-div p, .hp-success-div h6 {
+    color: #fff;
+}
+
+.success-col img {
+    width: 50px;
+    height:  50px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #000;
+    padding: 30px;
+}
+.footer h6 {
+    color: #fff;
+}
